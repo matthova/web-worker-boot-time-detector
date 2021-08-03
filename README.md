@@ -1,6 +1,6 @@
 # web-worker-boot-time-detector
 
-This repository is a minial repro of behavior I observed on v8 clients (Chrome/Electron/Edge?) when calling `requestAnimationFrame` from inside of a webworker.  
+This repository is a minial repro of behavior I observed on v8 clients (Chrome/Electron/Edge) when calling `requestAnimationFrame` from inside of a webworker.  
 
 The time origin was relative to, what I'm guessing is the last time the computer has booted. This guess is because the value only updated itself when I rebooted my computer.
 
